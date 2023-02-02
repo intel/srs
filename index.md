@@ -2,6 +2,6 @@
 layout: default
 ---
 
-# Scaling Repo Scanner
+Scaling Repo Scanner is a Github Actions framework to perform various code-analytics tasks on publicly available Github Repositories.
 
-This is where content will be one day
+## Scan logs
