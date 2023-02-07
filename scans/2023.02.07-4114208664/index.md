@@ -27,8 +27,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 #### Bug categories
 ##### API: 19
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/fineibt_llvm | 1 |
 | intel/gdb | 6 |
 | intel/intel-device-resource-mgt-lib | 6 |
@@ -39,8 +38,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### C++ move semantics: 7
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/compile-time-init-build | 3 |
 | intel/hexl | 4 |
 
@@ -48,8 +46,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Logic error: 216
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 2 |
 | intel/MTMC-Temporal-Profiler | 2 |
 | intel/cloud-client-ai-service-framework | 1 |
@@ -80,8 +77,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Memory error: 86
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/cm-cpu-emulation | 2 |
 | intel/compile-time-init-build | 1 |
 | intel/fineibt_llvm | 9 |
@@ -99,8 +95,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Readability: 5934
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 80 |
 | intel/IA-Hardware-Composer | 4 |
 | intel/Intel-Vector-Data-Streaming-Library | 5 |
@@ -155,8 +150,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Security: 245
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 2 |
 | intel/IA-Hardware-Composer | 6 |
 | intel/dptf | 2 |
@@ -182,8 +176,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Unix API: 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/qatlib | 1 |
 
 ***
@@ -191,15 +184,14 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 #### Bug types
 ##### Allocator sizeof operand mismatch: 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
+| ----------- | ----------- |
 | intel/qatlib | 1 |
 
 ***
 
 ##### Argument with 'nonnull' attribute passed null: 19
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/fineibt_llvm | 1 |
 | intel/gdb | 6 |
 | intel/intel-device-resource-mgt-lib | 6 |
@@ -210,8 +202,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Assigned value is garbage or undefined: 25
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/fineibt_llvm | 1 |
 | intel/gdb | 9 |
 | intel/gmmlib | 6 |
@@ -226,7 +217,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Bad align storage for placement new: 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
+| ----------- | ----------- |
 
 | intel/fineibt_llvm | 1 |
 
@@ -234,7 +225,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Bad deallocator: 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
+| ----------- | ----------- |
 
 | intel/intel-extension-for-transformers | 1 |
 
@@ -242,8 +233,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Branch condition evaluates to a garbage value: 6
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/intel-device-resource-mgt-lib | 4 |
 | intel/iotg-lin-gfx-libva | 1 |
 | intel/xpumanager | 1 |
@@ -252,8 +242,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Called C++ object pointer is null: 14
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/fineibt_llvm | 4 |
 | intel/gdb | 4 |
 | intel/gmmlib | 2 |
@@ -265,7 +254,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Called function pointer is null (null dereference): 3
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
+| ----------- | ----------- |
 
 | intel/fineibt_llvm | 1 |
 | intel/intel-extension-for-transformers | 2 |
@@ -274,8 +263,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Cognitive complexity: 5934
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 80 |
 | intel/IA-Hardware-Composer | 4 |
 | intel/Intel-Vector-Data-Streaming-Library | 5 |
@@ -330,16 +318,14 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Dangerous construct in a vforked process: 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/gdb | 1 |
 
 ***
 
 ##### Dereference of null pointer: 77
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/compute-aggregation-layer | 1 |
 | intel/dptf | 1 |
 | intel/fineibt_llvm | 15 |
@@ -354,8 +340,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Division by zero: 17
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/fineibt_llvm | 1 |
 | intel/gmmlib | 2 |
 | intel/intel-extension-for-transformers | 2 |
@@ -368,8 +353,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Double free: 6
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/compile-time-init-build | 1 |
 | intel/fineibt_llvm | 2 |
 | intel/intel-extension-for-transformers | 1 |
@@ -380,8 +364,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Garbage return value: 4
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/cm-cpu-emulation | 1 |
 | intel/fineibt_llvm | 1 |
 | intel/gdb | 1 |
@@ -391,8 +374,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Memory leak: 40
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/fineibt_llvm | 2 |
 | intel/gdb | 9 |
 | intel/gmmlib | 10 |
@@ -405,15 +387,14 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Potential insecure implementation-specific behavior in call 'vfork': 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
+| ----------- | ----------- |
 | intel/gdb | 1 |
 
 ***
 
 ##### Potential insecure memory buffer bounds restriction in call 'strcat': 35
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 1 |
 | intel/IA-Hardware-Composer | 1 |
 | intel/dptf | 1 |
@@ -434,8 +415,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Potential insecure memory buffer bounds restriction in call 'strcpy': 208
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 1 |
 | intel/IA-Hardware-Composer | 5 |
 | intel/dptf | 1 |
@@ -459,16 +439,14 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Potential insecure temporary file in call 'mktemp': 1
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/gdb | 1 |
 
 ***
 
 ##### Result of operation is garbage or undefined: 31
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/cloud-client-ai-service-framework | 1 |
 | intel/fineibt_llvm | 3 |
 | intel/gdb | 5 |
@@ -484,15 +462,14 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Return of address to stack-allocated memory: 2
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/intel-device-resource-mgt-lib | 2 |
 
 ***
 
 ##### Returning null reference: 2
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
+| ----------- | ----------- |
 
 | intel/fineibt_llvm | 2 |
 
@@ -500,8 +477,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Uninitialized argument value: 34
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/DML | 2 |
 | intel/MTMC-Temporal-Profiler | 2 |
 | intel/dptf | 2 |
@@ -521,8 +497,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Use of zero allocated: 6
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/gdb | 3 |
 | intel/xpumanager | 3 |
 
@@ -530,8 +505,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Use-after-free: 32
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/cm-cpu-emulation | 2 |
 | intel/fineibt_llvm | 4 |
 | intel/gdb | 18 |
@@ -543,8 +517,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ##### Use-after-move: 7
 | Repo        | Bug count   |
-|:-----------:|:-----------:|
-
+| ----------- | ----------- |
 | intel/compile-time-init-build | 3 |
 | intel/hexl | 4 |
 
@@ -555,8 +528,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ### Repositories with no bugs: 5
 | Repo        |
-|:---:|
-
+| --- |
 | intel/pailliercryptolib |
 | intel/gna |
 | intel/BDTK |
@@ -565,8 +537,7 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 
 ### Breakdown
 | Repo        | OSSF score  | Bugs      | High cognitive complexity functions / Total functions   |
-|:-----------:|:-----------:|:---------:|:-------------------------------------------------------:|
-
+| ----------- | ----------- | --------- | ------------------------------------------------------- |
 | intel/media-driver | 5.3 | 7 | 13 / 101 |
 | intel/linux-vpu-driver | 4.3 | 0 | 37 / 2074 |
 | intel/aubstream | 4.3 | 0 | 7 / 126 |
