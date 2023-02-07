@@ -218,7 +218,6 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 ##### Bad align storage for placement new: 1
 | Repo        | Bug count   |
 | ----------- | ----------- |
-
 | intel/fineibt_llvm | 1 |
 
 ***
@@ -226,7 +225,6 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 ##### Bad deallocator: 1
 | Repo        | Bug count   |
 | ----------- | ----------- |
-
 | intel/intel-extension-for-transformers | 1 |
 
 ***
@@ -255,7 +253,6 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 ##### Called function pointer is null (null dereference): 3
 | Repo        | Bug count   |
 | ----------- | ----------- |
-
 | intel/fineibt_llvm | 1 |
 | intel/intel-extension-for-transformers | 2 |
 
@@ -470,7 +467,6 @@ Github Actions Run ID: [4114208664](https://github.com/intel/srs/actions/runs/41
 ##### Returning null reference: 2
 | Repo        | Bug count   |
 | ----------- | ----------- |
-
 | intel/fineibt_llvm | 2 |
 
 ***
