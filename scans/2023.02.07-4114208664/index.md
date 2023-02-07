@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Scan date: 2023.02.07
-[All results (tar.gz)](./scans/2023.02.07-4114208664/all-results.tar.gz) [Repo list (JSON)](./scans/2023.02.07-4114208664/filtered-repos.json) [Bug breakdown (JSON)](./scans/2023.02.07-4114208664/bug_breakdown.json) [Score vs Bugs (CSV)](./scans/2023.02.07-4114208664/score_vs_bugs.csv)
+[All results (tar.gz)](./all-results.tar.gz) [Repo list (JSON)](./filtered-repos.json) [Bug breakdown (JSON)](./bug_breakdown.json) [Score vs Bugs (CSV)](./score_vs_bugs.csv)
 
 ***
 
