@@ -7,16 +7,11 @@ Scaling Repo Scanner is a Github Actions framework to perform various code-analy
 ## Scan logs
 
 {% assign scans_by_year = site.data.scans | group_by: "year" | sort_by: "name" %}
-<ul>
 {% for scan_year in scans_by_year %}
 {% assign scans = scan_year.items %}
 {{ scan_year.items }}
-  <li><b>{{ scan_year.name }}</b>
-    <ul>
+- **{{ scan_year.name }}**
 {% for scan in scans %}
-    <li>[{{ scan.date }}](./scans/{{ scan.id }}): {{ scan.bugs }} bugs</li>
+  - **[{{ scan.date }}](./scans/{{ scan.id }})**: {{ scan.bugs }} bugs
 {% endfor %}
-    </ul>
-  </li>
 {% endfor %}
-</ul>
