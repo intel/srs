@@ -1,0 +1,16 @@
+repo, bugs, ossf score, complex functions, total functions
+intel/intel-graphics-compiler,10,4.3,156,1170
+intel/intel-ipsec-mb,9,4.3,76,531
+intel/opencl-intercept-layer,8,4.3,222,408
+intel/linux-sgx,8,4.3,130,992
+intel/media-driver,7,4.3,13,101
+intel/pcm,4,4.3,155,781
+intel/compile-time-init-build,4,4.3,31,460
+intel/libva,3,4.3,21,328
+intel/isa-l,3,4.3,23,158
+intel/compile-time-init-build,3,,,
+intel/ipp-crypto,2,4.3,3,252
+intel/yarpgen,0,4.3,30,228
+intel/thermal_daemon,0,4.3,30,335
+intel/safestringlib,0,4.3,19,84
+intel/libipt,0,4.3,14,475
