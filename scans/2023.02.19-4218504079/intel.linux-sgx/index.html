@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>intel.linux-sgx</title>
+    <link type="text/css" rel="stylesheet" href="scanview.css"/>
+    <script type='text/javascript' src="sorttable.js"></script>
+    <script type='text/javascript' src='selectable.js'></script>
+  </head>
+<!-- SUMMARYENDHEAD -->
+  <body>
+    <h1>intel.linux-sgx</h1>
+    <table>
+      <tr><th>User:</th><td>root@6419b0028d93</td></tr>
+      <tr><th>Working Directory:</th><td>/work/repo/external/CppMicroServices</td></tr>
+      <tr><th>Command Line:</th><td>/usr/bin/analyze-build-15 -v --cdb compile_commands.json --no-failure-reports --analyze-headers --force-analyze-debug-code --html-title intel.linux-sgx -o /work/intel.linux-sgx/scan-build-result --analyzer-config crosscheck-with-z3=true --disable-checker deadcode.DeadStores --enable-checker security.FloatLoopCounter --enable-checker security.insecureAPI.strcpy</td></tr>
+      <tr><th>Clang Version:</th><td>Debian clang version 15.0.6</td></tr>
+      <tr><th>Date:</th><td>Sun Feb 19 00:30:20 2023</td></tr>
+    </table>
+    <h2>Bug Summary</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>Bug Type</td>
+          <td>Quantity</td>
+          <td class="sorttable_nosort">Display?</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="font-weight:bold">
+          <td class="SUMM_DESC">All Bugs</td>
+          <td class="Q">6</td>
+          <td>
+            <center>
+              <input checked type="checkbox" id="AllBugsCheck"
+                     onClick="CopyCheckedStateToCheckButtons(this);"/>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>API</th><th colspan=2></th>
+        </tr>
+        <tr>
+          <td class="SUMM_DESC">Argument with 'nonnull' attribute passed null</td>
+          <td class="Q">2</td>
+          <td>
+            <center>
+              <input checked type="checkbox"
+                     onClick="ToggleDisplay(this,'bt_api_argument_with_nonnull_attribute_passed_null');"/>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>Logic error</th><th colspan=2></th>
+        </tr>
+        <tr>
+          <td class="SUMM_DESC">Dereference of null pointer</td>
+          <td class="Q">1</td>
+          <td>
+            <center>
+              <input checked type="checkbox"
+                     onClick="ToggleDisplay(this,'bt_logic_error_dereference_of_null_pointer');"/>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>Memory error</th><th colspan=2></th>
+        </tr>
+        <tr>
+          <td class="SUMM_DESC">Memory leak</td>
+          <td class="Q">3</td>
+          <td>
+            <center>
+              <input checked type="checkbox"
+                     onClick="ToggleDisplay(this,'bt_memory_error_memory_leak');"/>
+            </center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+<!-- SUMMARYBUGEND -->
+    <h2>Reports</h2>
+    <table class="sortable" style="table-layout:automatic">
+      <thead>
+        <tr>
+          <td>Bug Group</td>
+          <td class="sorttable_sorted">
+            Bug Type
+            <span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span>
+          </td>
+          <td>File</td>
+          <td>Function/Method</td>
+          <td class="Q">Line</td>
+          <td class="Q">Path Length</td>
+          <td class="sorttable_nosort"></td>
+        </tr>
+      </thead>
+      <tbody>
+<!-- REPORTBUGCOL -->
+        <tr class="bt_api_argument_with_nonnull_attribute_passed_null">
+          <td class="DESC">API</td>
+          <td class="DESC">Argument with &apos;nonnull&apos; attribute passed null</td>
+          <td>third_party/miniz.c</td>
+          <td class="DESC">mz_zip_array_push_back</td>
+          <td class="Q">3063</td>
+          <td class="Q">62</td>
+          <td><a href="report-7fb61f.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-7fb61f.html" -->
+        <tr class="bt_logic_error_dereference_of_null_pointer">
+          <td class="DESC">Logic error</td>
+          <td class="DESC">Dereference of null pointer</td>
+          <td>third_party/optionparser.h</td>
+          <td class="DESC">workhorse</td>
+          <td class="Q">1665</td>
+          <td class="Q">36</td>
+          <td><a href="report-9281eb.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-9281eb.html" -->
+        <tr class="bt_memory_error_memory_leak">
+          <td class="DESC">Memory error</td>
+          <td class="DESC">Memory leak</td>
+          <td>framework/src/util/AnyMap.cpp</td>
+          <td class="DESC">insert</td>
+          <td class="Q">785</td>
+          <td class="Q">7</td>
+          <td><a href="report-a13668.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-a13668.html" -->
+        <tr class="bt_memory_error_memory_leak">
+          <td class="DESC">Memory error</td>
+          <td class="DESC">Memory leak</td>
+          <td>framework/src/util/AnyMap.cpp</td>
+          <td class="DESC">insert</td>
+          <td class="Q">781</td>
+          <td class="Q">7</td>
+          <td><a href="report-af5473.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-af5473.html" -->
+        <tr class="bt_memory_error_memory_leak">
+          <td class="DESC">Memory error</td>
+          <td class="DESC">Memory leak</td>
+          <td>framework/src/util/AnyMap.cpp</td>
+          <td class="DESC">insert</td>
+          <td class="Q">777</td>
+          <td class="Q">5</td>
+          <td><a href="report-2df404.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-2df404.html" -->
+        <tr class="bt_api_argument_with_nonnull_attribute_passed_null">
+          <td class="DESC">API</td>
+          <td class="DESC">Argument with &apos;nonnull&apos; attribute passed null</td>
+          <td>third_party/jsoncpp.cpp</td>
+          <td class="DESC">operator==</td>
+          <td class="Q">2500</td>
+          <td class="Q">18</td>
+          <td><a href="report-bb2a0c.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-bb2a0c.html" -->
+      </tbody>
+    </table>
+<!-- REPORTBUGEND -->
+  </body>
+</html>
