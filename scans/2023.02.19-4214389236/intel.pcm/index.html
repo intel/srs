@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>intel.pcm</title>
+    <link type="text/css" rel="stylesheet" href="scanview.css"/>
+    <script type='text/javascript' src="sorttable.js"></script>
+    <script type='text/javascript' src='selectable.js'></script>
+  </head>
+<!-- SUMMARYENDHEAD -->
+  <body>
+    <h1>intel.pcm</h1>
+    <table>
+      <tr><th>User:</th><td>root@97475cf03b66</td></tr>
+      <tr><th>Working Directory:</th><td>/work/repo</td></tr>
+      <tr><th>Command Line:</th><td>/usr/bin/analyze-build-15 -v --cdb compile_commands.json --no-failure-reports --analyze-headers --force-analyze-debug-code --html-title intel.pcm -o /work/intel.pcm/scan-build-result --analyzer-config crosscheck-with-z3=true --disable-checker deadcode.DeadStores --enable-checker security.FloatLoopCounter --enable-checker security.insecureAPI.strcpy</td></tr>
+      <tr><th>Clang Version:</th><td>Debian clang version 15.0.6</td></tr>
+      <tr><th>Date:</th><td>Sun Feb 19 00:32:16 2023</td></tr>
+    </table>
+    <h2>Bug Summary</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>Bug Type</td>
+          <td>Quantity</td>
+          <td class="sorttable_nosort">Display?</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="font-weight:bold">
+          <td class="SUMM_DESC">All Bugs</td>
+          <td class="Q">4</td>
+          <td>
+            <center>
+              <input checked type="checkbox" id="AllBugsCheck"
+                     onClick="CopyCheckedStateToCheckButtons(this);"/>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>Logic error</th><th colspan=2></th>
+        </tr>
+        <tr>
+          <td class="SUMM_DESC">Uninitialized argument value</td>
+          <td class="Q">2</td>
+          <td>
+            <center>
+              <input checked type="checkbox"
+                     onClick="ToggleDisplay(this,'bt_logic_error_uninitialized_argument_value');"/>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <th>Security</th><th colspan=2></th>
+        </tr>
+        <tr>
+          <td class="SUMM_DESC">Potential insecure memory buffer bounds restriction in call 'strcpy'</td>
+          <td class="Q">1</td>
+          <td>
+            <center>
+              <input checked type="checkbox"
+                     onClick="ToggleDisplay(this,'bt_security_potential_insecure_memory_buffer_bounds_restriction_in_call_strcpy');"/>
+            </center>
+          </td>
+        </tr>
+        <tr>
+          <td class="SUMM_DESC">Potential insecure memory buffer bounds restriction in call 'strcat'</td>
+          <td class="Q">1</td>
+          <td>
+            <center>
+              <input checked type="checkbox"
+                     onClick="ToggleDisplay(this,'bt_security_potential_insecure_memory_buffer_bounds_restriction_in_call_strcat');"/>
+            </center>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+<!-- SUMMARYBUGEND -->
+    <h2>Reports</h2>
+    <table class="sortable" style="table-layout:automatic">
+      <thead>
+        <tr>
+          <td>Bug Group</td>
+          <td class="sorttable_sorted">
+            Bug Type
+            <span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span>
+          </td>
+          <td>File</td>
+          <td>Function/Method</td>
+          <td class="Q">Line</td>
+          <td class="Q">Path Length</td>
+          <td class="sorttable_nosort"></td>
+        </tr>
+      </thead>
+      <tbody>
+<!-- REPORTBUGCOL -->
+        <tr class="bt_logic_error_uninitialized_argument_value">
+          <td class="DESC">Logic error</td>
+          <td class="DESC">Uninitialized argument value</td>
+          <td>../../usr/lib/llvm-15/lib/clang/15.0.6/include/cetintrin.h</td>
+          <td class="DESC">_rdsspd_i32</td>
+          <td class="Q">49</td>
+          <td class="Q">2</td>
+          <td><a href="report-a95dbc.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-a95dbc.html" -->
+        <tr class="bt_security_potential_insecure_memory_buffer_bounds_restriction_in_call_strcpy">
+          <td class="DESC">Security</td>
+          <td class="DESC">Potential insecure memory buffer bounds restriction in call &apos;strcpy&apos;</td>
+          <td>../../usr/include/x86_64-linux-gnu/bits/string_fortified.h</td>
+          <td class="DESC">strcpy</td>
+          <td class="Q">79</td>
+          <td class="Q">1</td>
+          <td><a href="report-f4cafb.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-f4cafb.html" -->
+        <tr class="bt_logic_error_uninitialized_argument_value">
+          <td class="DESC">Logic error</td>
+          <td class="DESC">Uninitialized argument value</td>
+          <td>../../usr/lib/llvm-15/lib/clang/15.0.6/include/cetintrin.h</td>
+          <td class="DESC">_rdsspq_i64</td>
+          <td class="Q">62</td>
+          <td class="Q">2</td>
+          <td><a href="report-076fda.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-076fda.html" -->
+        <tr class="bt_security_potential_insecure_memory_buffer_bounds_restriction_in_call_strcat">
+          <td class="DESC">Security</td>
+          <td class="DESC">Potential insecure memory buffer bounds restriction in call &apos;strcat&apos;</td>
+          <td>../../usr/include/x86_64-linux-gnu/bits/string_fortified.h</td>
+          <td class="DESC">strcat</td>
+          <td class="Q">130</td>
+          <td class="Q">1</td>
+          <td><a href="report-8c0800.html#EndPath">View Report</a></td>
+        </tr>
+<!-- REPORTBUG id="report-8c0800.html" -->
+      </tbody>
+    </table>
+<!-- REPORTBUGEND -->
+  </body>
+</html>
