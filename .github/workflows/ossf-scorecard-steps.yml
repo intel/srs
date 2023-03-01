@@ -29,7 +29,8 @@ on:
 jobs:
   ossf-scorecard:
     runs-on: ubuntu-latest
-
+    outputs:
+      result: ${{ steps.official.output.result }}
     steps:
       - name: generate save directory name
         shell: bash
@@ -62,30 +63,36 @@ jobs:
             echo "Rate limit remaining: $rl"
           done
 
-      - name: checkout repo
-        if: steps.official.outputs.result == '0'
-        uses: actions/checkout@v3
+      - name: save results
+        uses: actions/upload-artifact@v3
+        if: steps.official.outputs.result == '1'
         with:
-          repository: ${{ inputs.repo }}
-          token: ${{ secrets.GHPAT }}
-          path: repo
+          retention-days: 10
+          name: ${{ steps.vars.outputs.SREPO }}.ossf-scorecard
+          path: ${{ steps.vars.outputs.SREPO }}.ossf-scorecard.json
 
-      - name: run OSFF scorecard
-        if: steps.official.outputs.result == '0'
-        env:
-          GHPAT: ${{ secrets.GHPAT }}
-        run: |
-          docker pull gcr.io/openssf/scorecard:stable
-          docker run -e "GITHUB_AUTH_TOKEN=$GHPAT" gcr.io/openssf/scorecard --local=./repo --format=json > ${{ steps.vars.outputs.SREPO }}.ossf-scorecard.json
+  ossf-docker:
+    needs: ossf-scorecard
+    runs-on: ubuntu-latest
+    if: needs.ossf-scorecard.outputs.result == '0'
+    container:
+      image: gcr.io/openssf/scorecard:stable
+      env:
+        GITHUB_AUTH_TOKEN: ${{ secrets.GHPAT }}
+    outputs:
+      json: ${{ steps.docker.outputs.json }}
+    steps:
+      - name: Run scorecard
+        id: docker
+        run: echo json=$(/scorecard --repo=${{ inputs.repo }} --format=json) >> $GITHUB_OUTPUT
 
-      - name: check score and record summary
-        run: |
-          score=$(jq '.score' ${{ steps.vars.outputs.SREPO }}.ossf-scorecard.json)
-          echo "## OSSF scorecard aggregate score: $score" >> $GITHUB_STEP_SUMMARY
-
-          if [ $score == "-1" ]; then
-            exit 1
-          fi
+  ossf-docker-save:
+    needs: ossf-docker
+    runs-on: ubuntu-latest
+    if: needs.ossf-scorecard.outputs.result == '0'
+    steps:
+      - name: get json
+        run: echo ${{ needs.ossf-docker.outputs.json }} > ${{ steps.vars.outputs.SREPO }}.ossf-scorecard.json
 
       - name: save results
         uses: actions/upload-artifact@v3
