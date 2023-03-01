@@ -1,4 +1,15 @@
 on:
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'repo'
+        required: true
+        type: string
+      rate-limit:
+        description: 'rate limit'
+        required: false
+        default: 150
+        type: number
   workflow_call:
     inputs:
       repo:
@@ -57,15 +68,15 @@ jobs:
         with:
           repository: ${{ inputs.repo }}
           token: ${{ secrets.GHPAT }}
+          path: repo
 
       - name: run OSFF scorecard
         if: steps.official.outputs.result == '0'
-        uses: ossf/scorecard-action@v2.1.2
-        with:
-          results_file: ${{ steps.vars.outputs.SREPO }}.ossf-scorecard.json
-          results_format: json
-          repo_token: ${{ secrets.GHPAT }}
-          publish_results: false
+        env:
+          GHPAT: ${{ secrets.GHPAT }}
+        run: |
+          docker pull gcr.io/openssf/scorecard:stable
+          docker run -e "GITHUB_AUTH_TOKEN=$GHPAT" gcr.io/openssf/scorecard --local=./repo --format=json > ${{ steps.vars.outputs.SREPO }}.ossf-scorecard.json
 
       - name: check score and record summary
         run: |
