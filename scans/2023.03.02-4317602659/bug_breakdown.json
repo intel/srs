@@ -1,0 +1,549 @@
+{
+  "bugs": 260,
+  "categories": [
+    {
+      "category": "API",
+      "count": 4,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "C++ move semantics",
+      "count": 4,
+      "repos": [
+        {
+          "repo": "intel/hexl",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "category": "Logic error",
+      "count": 67,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 37
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 8
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 7
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 3
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 3
+        },
+        {
+          "repo": "intel/intel-cpu-frequency-library",
+          "count": 2
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 2
+        },
+        {
+          "repo": "intel/DML",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 1
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 1
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Memory error",
+      "count": 25,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 18
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "category": "Readability",
+      "count": 1108,
+      "repos": [
+        {
+          "repo": "intel/ideep",
+          "count": 302
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 195
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 170
+        },
+        {
+          "repo": "intel/compute-benchmarks",
+          "count": 127
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 77
+        },
+        {
+          "repo": "intel/DML",
+          "count": 68
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 46
+        },
+        {
+          "repo": "intel/igsc",
+          "count": 25
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 24
+        },
+        {
+          "repo": "intel/intel-qs",
+          "count": 21
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 16
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 13
+        },
+        {
+          "repo": "intel/Intel-Vector-Data-Streaming-Library",
+          "count": 5
+        },
+        {
+          "repo": "intel/crypto-api-toolkit",
+          "count": 4
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 4
+        },
+        {
+          "repo": "intel/aubstream",
+          "count": 4
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 4
+        },
+        {
+          "repo": "intel/hexl-fpga",
+          "count": 2
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Security",
+      "count": 160,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 144
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 6
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 4
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 2
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 2
+        },
+        {
+          "repo": "intel/DML",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "type": "Argument with 'nonnull' attribute passed null",
+      "count": 4,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "Assigned value is garbage or undefined",
+      "count": 17,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 9
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 5
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "Called C++ object pointer is null",
+      "count": 2,
+      "repos": [
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 1
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Cognitive complexity",
+      "count": 1108,
+      "repos": [
+        {
+          "repo": "intel/ideep",
+          "count": 302
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 195
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 170
+        },
+        {
+          "repo": "intel/compute-benchmarks",
+          "count": 127
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 77
+        },
+        {
+          "repo": "intel/DML",
+          "count": 68
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 46
+        },
+        {
+          "repo": "intel/igsc",
+          "count": 25
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 24
+        },
+        {
+          "repo": "intel/intel-qs",
+          "count": 21
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 16
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 13
+        },
+        {
+          "repo": "intel/Intel-Vector-Data-Streaming-Library",
+          "count": 5
+        },
+        {
+          "repo": "intel/crypto-api-toolkit",
+          "count": 4
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 4
+        },
+        {
+          "repo": "intel/aubstream",
+          "count": 4
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 4
+        },
+        {
+          "repo": "intel/hexl-fpga",
+          "count": 2
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Dangerous construct in a vforked process",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Dereference of null pointer",
+      "count": 22,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 21
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Division by zero",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gmmlib",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Garbage return value",
+      "count": 2,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Memory leak",
+      "count": 6,
+      "repos": [
+        {
+          "repo": "intel/gmmlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure implementation-specific behavior in call 'vfork'",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure memory buffer bounds restriction in call 'strcat'",
+      "count": 15,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 8
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 3
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 1
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 1
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 1
+        },
+        {
+          "repo": "intel/DML",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure memory buffer bounds restriction in call 'strcpy'",
+      "count": 143,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 134
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 5
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 1
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 1
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 1
+        },
+        {
+          "repo": "intel/DML",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure temporary file in call 'mktemp'",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Result of operation is garbage or undefined",
+      "count": 10,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 5
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 3
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 1
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Uninitialized argument value",
+      "count": 12,
+      "repos": [
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-cpu-frequency-library",
+          "count": 2
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 2
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 2
+        },
+        {
+          "repo": "intel/DML",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "Use-after-free",
+      "count": 19,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 17
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "Use-after-move",
+      "count": 4,
+      "repos": [
+        {
+          "repo": "intel/hexl",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

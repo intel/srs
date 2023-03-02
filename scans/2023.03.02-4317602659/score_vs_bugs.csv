@@ -1,0 +1,7 @@
+repo, bugs, ossf score, complex functions, total functions
+intel/intel-ipsec-mb,11,5,77,545
+intel/gna,0,4.4,0,5
+intel/compute-benchmarks,0,4.6,127,356
+intel/aubstream,0,4.8,4,126
+intel/Intel-Vector-Data-Streaming-Library,0,4.1,5,130
+intel/BDTK,0,6.5,0,9
