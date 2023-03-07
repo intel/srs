@@ -1,0 +1,1483 @@
+{
+  "bugs": 796,
+  "categories": [
+    {
+      "category": "API",
+      "count": 24,
+      "repos": [
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 6
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 6
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 4
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 2
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "C++ move semantics",
+      "count": 7,
+      "repos": [
+        {
+          "repo": "intel/hexl",
+          "count": 4
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "category": "Logic error",
+      "count": 322,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 96
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 47
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 40
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 29
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 24
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 16
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 10
+        },
+        {
+          "repo": "intel/qpl",
+          "count": 8
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 7
+        },
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 6
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 5
+        },
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 4
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 3
+        },
+        {
+          "repo": "intel/isa-l",
+          "count": 3
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 3
+        },
+        {
+          "repo": "intel/zlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 2
+        },
+        {
+          "repo": "intel/ipp-crypto",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-cpu-frequency-library",
+          "count": 2
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 2
+        },
+        {
+          "repo": "intel/MTMC-Temporal-Profiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/DML",
+          "count": 2
+        },
+        {
+          "repo": "intel/linux-vpu-driver",
+          "count": 1
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 1
+        },
+        {
+          "repo": "intel/iotg-lin-gfx-libva",
+          "count": 1
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 1
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Memory error",
+      "count": 171,
+      "repos": [
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 54
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 31
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 30
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 18
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 10
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 6
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 5
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 3
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/libva",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 2
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 2
+        },
+        {
+          "repo": "intel/compile-time-init-build",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Readability",
+      "count": 9786,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 5330
+        },
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 768
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 528
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 392
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 364
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 340
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 302
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 226
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 222
+        },
+        {
+          "repo": "intel/qpl",
+          "count": 205
+        },
+        {
+          "repo": "intel/compute-benchmarks",
+          "count": 132
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 126
+        },
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 111
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 83
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 82
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 77
+        },
+        {
+          "repo": "intel/DML",
+          "count": 75
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 46
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 32
+        },
+        {
+          "repo": "intel/linux-vpu-driver",
+          "count": 32
+        },
+        {
+          "repo": "intel/zlib",
+          "count": 31
+        },
+        {
+          "repo": "intel/thermal_daemon",
+          "count": 30
+        },
+        {
+          "repo": "intel/igsc",
+          "count": 25
+        },
+        {
+          "repo": "intel/isa-l",
+          "count": 23
+        },
+        {
+          "repo": "intel/libva",
+          "count": 21
+        },
+        {
+          "repo": "intel/intel-qs",
+          "count": 21
+        },
+        {
+          "repo": "intel/safestringlib",
+          "count": 19
+        },
+        {
+          "repo": "intel/SGXDataCenterAttestationPrimitives",
+          "count": 18
+        },
+        {
+          "repo": "intel/yarpgen",
+          "count": 15
+        },
+        {
+          "repo": "intel/iotg-lin-gfx-libva",
+          "count": 15
+        },
+        {
+          "repo": "intel/libipt",
+          "count": 14
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 12
+        },
+        {
+          "repo": "intel/qemu-tdx",
+          "count": 10
+        },
+        {
+          "repo": "intel/media-driver",
+          "count": 10
+        },
+        {
+          "repo": "intel/compile-time-init-build",
+          "count": 5
+        },
+        {
+          "repo": "intel/Intel-Vector-Data-Streaming-Library",
+          "count": 5
+        },
+        {
+          "repo": "intel/pti-gpu",
+          "count": 4
+        },
+        {
+          "repo": "intel/iotg_tsn_ref_sw",
+          "count": 4
+        },
+        {
+          "repo": "intel/crypto-api-toolkit",
+          "count": 4
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 4
+        },
+        {
+          "repo": "intel/aubstream",
+          "count": 4
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 4
+        },
+        {
+          "repo": "intel/oneAPI-Ultrasound-Beamforming-Library",
+          "count": 3
+        },
+        {
+          "repo": "intel/ipp-crypto",
+          "count": 3
+        },
+        {
+          "repo": "intel/metee",
+          "count": 2
+        },
+        {
+          "repo": "intel/ipmctl",
+          "count": 2
+        },
+        {
+          "repo": "intel/hexl-fpga",
+          "count": 2
+        },
+        {
+          "repo": "intel/MTMC-Temporal-Profiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Security",
+      "count": 271,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 144
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 27
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 18
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 17
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 15
+        },
+        {
+          "repo": "intel/media-driver",
+          "count": 7
+        },
+        {
+          "repo": "intel/zlib",
+          "count": 6
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 6
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 6
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 4
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 3
+        },
+        {
+          "repo": "intel/uintr-ipc-bench",
+          "count": 2
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 2
+        },
+        {
+          "repo": "intel/metee",
+          "count": 2
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 2
+        },
+        {
+          "repo": "intel/iotg_tsn_ref_sw",
+          "count": 2
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 2
+        },
+        {
+          "repo": "intel/DML",
+          "count": 2
+        },
+        {
+          "repo": "intel/libva",
+          "count": 1
+        },
+        {
+          "repo": "intel/iotg-lin-gfx-libva",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "category": "Unix API",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/qatlib",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "type": "Allocator sizeof operand mismatch",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/qatlib",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Argument with 'nonnull' attribute passed null",
+      "count": 24,
+      "repos": [
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 6
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 6
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 4
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 2
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Assigned value is garbage or undefined",
+      "count": 59,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 28
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 9
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 6
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 5
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 2
+        },
+        {
+          "repo": "intel/qpl",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 2
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 1
+        },
+        {
+          "repo": "intel/linux-vpu-driver",
+          "count": 1
+        },
+        {
+          "repo": "intel/isa-l",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Bad deallocator",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Bad free",
+      "count": 6,
+      "repos": [
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "Branch condition evaluates to a garbage value",
+      "count": 14,
+      "repos": [
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 4
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 4
+        },
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 3
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 2
+        },
+        {
+          "repo": "intel/iotg-lin-gfx-libva",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Called C++ object pointer is null",
+      "count": 28,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 12
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 8
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 2
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 1
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Called function pointer is null (null dereference)",
+      "count": 3,
+      "repos": [
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 2
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Cognitive complexity",
+      "count": 9786,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 5330
+        },
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 768
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 528
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 392
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 364
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 340
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 302
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 226
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 222
+        },
+        {
+          "repo": "intel/qpl",
+          "count": 205
+        },
+        {
+          "repo": "intel/compute-benchmarks",
+          "count": 132
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 126
+        },
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 111
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 83
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 82
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 77
+        },
+        {
+          "repo": "intel/DML",
+          "count": 75
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 46
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 32
+        },
+        {
+          "repo": "intel/linux-vpu-driver",
+          "count": 32
+        },
+        {
+          "repo": "intel/zlib",
+          "count": 31
+        },
+        {
+          "repo": "intel/thermal_daemon",
+          "count": 30
+        },
+        {
+          "repo": "intel/igsc",
+          "count": 25
+        },
+        {
+          "repo": "intel/isa-l",
+          "count": 23
+        },
+        {
+          "repo": "intel/libva",
+          "count": 21
+        },
+        {
+          "repo": "intel/intel-qs",
+          "count": 21
+        },
+        {
+          "repo": "intel/safestringlib",
+          "count": 19
+        },
+        {
+          "repo": "intel/SGXDataCenterAttestationPrimitives",
+          "count": 18
+        },
+        {
+          "repo": "intel/yarpgen",
+          "count": 15
+        },
+        {
+          "repo": "intel/iotg-lin-gfx-libva",
+          "count": 15
+        },
+        {
+          "repo": "intel/libipt",
+          "count": 14
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 12
+        },
+        {
+          "repo": "intel/qemu-tdx",
+          "count": 10
+        },
+        {
+          "repo": "intel/media-driver",
+          "count": 10
+        },
+        {
+          "repo": "intel/compile-time-init-build",
+          "count": 5
+        },
+        {
+          "repo": "intel/Intel-Vector-Data-Streaming-Library",
+          "count": 5
+        },
+        {
+          "repo": "intel/pti-gpu",
+          "count": 4
+        },
+        {
+          "repo": "intel/iotg_tsn_ref_sw",
+          "count": 4
+        },
+        {
+          "repo": "intel/crypto-api-toolkit",
+          "count": 4
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 4
+        },
+        {
+          "repo": "intel/aubstream",
+          "count": 4
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 4
+        },
+        {
+          "repo": "intel/oneAPI-Ultrasound-Beamforming-Library",
+          "count": 3
+        },
+        {
+          "repo": "intel/ipp-crypto",
+          "count": 3
+        },
+        {
+          "repo": "intel/metee",
+          "count": 2
+        },
+        {
+          "repo": "intel/ipmctl",
+          "count": 2
+        },
+        {
+          "repo": "intel/hexl-fpga",
+          "count": 2
+        },
+        {
+          "repo": "intel/MTMC-Temporal-Profiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Dangerous construct in a vforked process",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Dereference of null pointer",
+      "count": 76,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 23
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 16
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 15
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 10
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 4
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 3
+        },
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 3
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 1
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Dereference of undefined pointer value",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Division by zero",
+      "count": 23,
+      "repos": [
+        {
+          "repo": "intel/xpumanager",
+          "count": 8
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 3
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 2
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Double free",
+      "count": 7,
+      "repos": [
+        {
+          "repo": "intel/xpumanager",
+          "count": 2
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 2
+        },
+        {
+          "repo": "intel/libva",
+          "count": 1
+        },
+        {
+          "repo": "intel/intel-extension-for-transformers",
+          "count": 1
+        },
+        {
+          "repo": "intel/compile-time-init-build",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Garbage return value",
+      "count": 10,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 7
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 1
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Memory leak",
+      "count": 64,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 13
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 12
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 10
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 9
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 6
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 5
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 5
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 3
+        },
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure implementation-specific behavior in call 'vfork'",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure memory buffer bounds restriction in call 'strcat'",
+      "count": 44,
+      "repos": [
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 8
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 8
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 6
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 4
+        },
+        {
+          "repo": "intel/media-driver",
+          "count": 4
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 3
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 1
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 1
+        },
+        {
+          "repo": "intel/metee",
+          "count": 1
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 1
+        },
+        {
+          "repo": "intel/libva",
+          "count": 1
+        },
+        {
+          "repo": "intel/iotg_tsn_ref_sw",
+          "count": 1
+        },
+        {
+          "repo": "intel/iotg-lin-gfx-libva",
+          "count": 1
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 1
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 1
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 1
+        },
+        {
+          "repo": "intel/DML",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure memory buffer bounds restriction in call 'strcpy'",
+      "count": 225,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 134
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 19
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 18
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 15
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 11
+        },
+        {
+          "repo": "intel/zlib",
+          "count": 6
+        },
+        {
+          "repo": "intel/IA-Hardware-Composer",
+          "count": 5
+        },
+        {
+          "repo": "intel/media-driver",
+          "count": 3
+        },
+        {
+          "repo": "intel/uintr-ipc-bench",
+          "count": 2
+        },
+        {
+          "repo": "intel/opencl-intercept-layer",
+          "count": 2
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 2
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 1
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 1
+        },
+        {
+          "repo": "intel/metee",
+          "count": 1
+        },
+        {
+          "repo": "intel/linux-sgx",
+          "count": 1
+        },
+        {
+          "repo": "intel/iotg_tsn_ref_sw",
+          "count": 1
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 1
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 1
+        },
+        {
+          "repo": "intel/DML",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Potential insecure temporary file in call 'mktemp'",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/gdb",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Result of operation is garbage or undefined",
+      "count": 57,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 20
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 14
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 5
+        },
+        {
+          "repo": "intel/intel-graphics-compiler",
+          "count": 4
+        },
+        {
+          "repo": "intel/ideep",
+          "count": 4
+        },
+        {
+          "repo": "intel/qpl",
+          "count": 3
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 2
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 1
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 1
+        },
+        {
+          "repo": "intel/cloud-client-ai-service-framework",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Return of address to stack-allocated memory",
+      "count": 2,
+      "repos": [
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "Returning null reference",
+      "count": 1,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Uninitialized argument value",
+      "count": 47,
+      "repos": [
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 9
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 8
+        },
+        {
+          "repo": "intel/gmmlib",
+          "count": 4
+        },
+        {
+          "repo": "intel/qpl",
+          "count": 3
+        },
+        {
+          "repo": "intel/zlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/qatlib",
+          "count": 2
+        },
+        {
+          "repo": "intel/pcm",
+          "count": 2
+        },
+        {
+          "repo": "intel/isa-l",
+          "count": 2
+        },
+        {
+          "repo": "intel/ipp-crypto",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-ipsec-mb",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-cpu-frequency-library",
+          "count": 2
+        },
+        {
+          "repo": "intel/hexl",
+          "count": 2
+        },
+        {
+          "repo": "intel/dptf",
+          "count": 2
+        },
+        {
+          "repo": "intel/MTMC-Temporal-Profiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/DML",
+          "count": 2
+        },
+        {
+          "repo": "intel/intel-device-resource-mgt-lib",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Use of zero allocated",
+      "count": 9,
+      "repos": [
+        {
+          "repo": "intel/xpumanager",
+          "count": 6
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "Use-after-free",
+      "count": 84,
+      "repos": [
+        {
+          "repo": "intel/compute-aggregation-layer",
+          "count": 47
+        },
+        {
+          "repo": "intel/gdb",
+          "count": 19
+        },
+        {
+          "repo": "intel/xpumanager",
+          "count": 10
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 3
+        },
+        {
+          "repo": "intel/systemc-compiler",
+          "count": 2
+        },
+        {
+          "repo": "intel/cm-cpu-emulation",
+          "count": 2
+        },
+        {
+          "repo": "intel/libva",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "Use-after-move",
+      "count": 7,
+      "repos": [
+        {
+          "repo": "intel/hexl",
+          "count": 4
+        },
+        {
+          "repo": "intel/fineibt_llvm",
+          "count": 3
+        }
+      ]
+    }
+  ]
+}
