@@ -2,13 +2,9 @@ name: Aggregate results and create summary
 on:
   workflow_dispatch:
     inputs:
-      run-id:
-        description: 'The workflow run-id to look at'
+      run-ids:
+        description: 'The workflow run-ids to look at'
         required: true
-        type: string
-      comment-id:
-        description: 'The comment-id to update'
-        required: false
         type: string
       delay:
         description: 'Delay start to give previous workflow time to settle'
@@ -33,22 +29,15 @@ jobs:
         run: sleep ${{ inputs.delay }}
 
       - name: Download artifacts with rate limit
-        run: ./query/download-artifacts.sh ${{ inputs.run-id }}
+        run: ./query/download-artifacts.sh ${{ inputs.run-ids }}
 
       - name: Summarize results
-        run: ./query/summary.sh ${{ inputs.run-id }}
+        run: |
+          firstid=$(echo ${{ inputs.run-ids }} | awk -F',' '{ print $1 }')
+          ./query/summary.sh $firstid
 
       - name: Github step summary
         run: cat summary.md >> $GITHUB_STEP_SUMMARY
-
-      - name: Update comment
-        if: inputs.comment-id != ''
-        uses: peter-evans/create-or-update-comment@v2
-        with:
-          token: ${{ secrets.GHPAT }}
-          comment-id: ${{ inputs.comment-id }}
-          body-file: summary.md
-          reactions: hooray
 
       - name: save results
         uses: actions/upload-artifact@v3
